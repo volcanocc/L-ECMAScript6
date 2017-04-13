@@ -5,8 +5,61 @@
     <title>ES6</title>
 </head>
 <body>
+123
+branch
+
+<!--<script src="scripts/test-compiled.js"></script>-->
 
 
-<script src="scripts/test-compiled.js"></script>
+
+<script>
+    const items = [
+  {
+    path: '/goods-release-index',
+    name: 'goodsReleaseIndex',
+    component: 'goodsReleaseIndex',
+    meta : {
+      leftMenuSelectId : '04050600'
+    }
+  },
+  {
+    path: '/goods-release',
+    name: 'goodsRelease',
+    component: 'goodsRelease',
+    meta : {
+      leftMenuSelectId : '04050600'
+    }
+  },
+  {
+    path:'/goods-online',
+    name:'goodsOnline',
+    component: 'goodsOnline',
+    meta : {
+      leftMenuSelectId : '04050500'
+    }
+  },
+  {
+    path:'/goods-edit',
+    name:'goodsEdit',
+    component: 'goodsEdit',
+    meta : {
+      leftMenuSelectId : '04050700'
+    }
+  },
+  {
+    path:'/goods-Store',
+    name:'goodsStore',
+    component: 'goodsStore',
+    meta : {
+      leftMenuSelectId : '04050800'
+    }
+  }
+];
+    const itemsCopy = [...items];
+    console.log(itemsCopy);
+    
+</script>
+
+
 </body>
 </html>
